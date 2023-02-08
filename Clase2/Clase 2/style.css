@@ -1,0 +1,41 @@
+:root{
+    --white: #fff;
+    --blue: #81f5ff;
+}
+
+body{
+    margin: 0;
+    background-color: var(--blue);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenedor_principal{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.Contenedor_1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: var(--white);
+
+    border: 5px solid salmon;
+    border-radius: 48px;
+}
+
+.Contenedor_2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: var(--white);
+
+    border: 6px solid yellowgreen;
+    border-radius: 48px;
+}
