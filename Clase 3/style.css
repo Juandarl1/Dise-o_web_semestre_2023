@@ -2,6 +2,14 @@ h1{
     font-size: 60px;
 }
 
-p{
+div{
+    font-size: 30px;
+}
+ 
+span{
     font-size: 0.5em;
+}
+
+p{
+    font-size: 2em;
 }
