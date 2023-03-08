@@ -79,4 +79,4 @@ const multiplicaNumero=(numero,callbackfN)=>{
     return callbackfN(numero);
 }
 
-console.log(multiplicaNumero(10,multiplicarPorDos))
+console.log(multiplicaNumero(10,multiplicarPorDos));
