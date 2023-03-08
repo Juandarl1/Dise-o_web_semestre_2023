@@ -71,3 +71,12 @@ const anuncios =nombresPersonas.map(miembro=>{
 });
 
 console.log(anuncios)
+
+
+const multiplicarPorDos =(numero)=>{return numero*2;}
+
+const multiplicaNumero=(numero,callbackfN)=>{
+    return callbackfN(numero);
+}
+
+console.log(multiplicaNumero(10,multiplicarPorDos))
