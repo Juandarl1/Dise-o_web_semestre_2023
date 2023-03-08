@@ -18,7 +18,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	margin: 20px;
-	background-image: linear-gradient(135deg, #9966bb 0%, #5a3c85 100%);
+		
 	border: none;
 	border-radius: 20px;
 	justify-content: space-around;
