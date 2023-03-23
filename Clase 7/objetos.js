@@ -150,5 +150,9 @@ console.log(canciones.autores());
 console.log(canciones.tiempoCancion());
 
 // 3
+const disponibles = () => {
+    return `Los colores que hay para cada uno son las mismas, 
+    los colores disponibles son ${Catalogo.caracteristica.coloresDisponibles}`
+  }
 
-
+  console.log(disponibles());
