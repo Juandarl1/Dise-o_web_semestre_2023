@@ -151,8 +151,11 @@ console.log(canciones.tiempoCancion());
 
 // 3
 const disponibles = () => {
-    return `Los colores que hay para cada uno son las mismas, 
-    los colores disponibles son ${Catalogo.caracteristica.coloresDisponibles}`
-  }
-
-  console.log(disponibles());
+    let canciones=new Musicas('Deep stone Lubally','Michael Salvatory and others',3.25,2020)
+    console.log(canciones.autores());
+    console.log(canciones.tiempoCancion());
+ 
+ }
+ 
+ console.log(disponibles());
+ 
